@@ -1,69 +1,86 @@
 <body>
 
-  <div class="hero_area">
+ <div class="hero_area">
 
-    <!-- header section starts -->
-    <header class="header_section">
+  <!-- header section starts -->
+  <header class="header_section">
 
-      <div class="header_top">
-        <div class="container-fluid">
-          <div class="contact_nav" style="justify-content: flex-end;">
+    <!-- 상단 연락처 영역 -->
+    <div class="header_top" style="background-color: #000;">
+      <div class="container-fluid">
+        <div class="contact_nav" style="justify-content: flex-end;">
 
-            <a href="mailto:reclevo@naver.com">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>
-                Email : reclevo@naver.com
-              </span>
-            </a>
+          <!-- 이메일만 표시 -->
+          <a href="mailto:reclevo@naver.com">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <span>
+              Email : reclevo@naver.com
+            </span>
+          </a>
 
+        </div>
+      </div>
+    </div>
+
+    <!-- 메뉴 영역 -->
+    <div class="header_bottom">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+
+          <a class="navbar-brand" href="index.html">
+            <span style="color: gray;">
+              슬기로운 건축생활
+            </span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                  Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">
+                  About
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">
+                  Services
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">
+                  Contact Us
+                </a>
+              </li>
+
+            </ul>
           </div>
-        </div>
+
+        </nav>
       </div>
+    </div>
 
-      <div class="header_bottom">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container">
-
-            <a class="navbar-brand" href="index.html">
-              <span style="color: gray;">
-                슬기로운 건축생활
-              </span>
-            </a>
-
-            <button class="navbar-toggler" type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">
-                    Home <span class="sr-only">(current)</span>
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="service.html">Services</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-
-          </nav>
-        </div>
-      </div>
+  </header>
+  <!-- header section ends -->
 
     </header>
     <!-- header section ends -->    
